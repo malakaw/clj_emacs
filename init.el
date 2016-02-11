@@ -94,7 +94,7 @@
 (add-to-list 'load-path "~/.emacs.d/my_config/python")
 (require 'flymake-easy)
 (require 'flymake-python-pyflakes)
-;;(eval-after-load 'flymake '(require 'flymake-cursor))
+
 
 
 
