@@ -15,6 +15,15 @@ sudo unzip master.zip
 sudo mv emacs_common-master/ .emacs.d
 </code></pre>
 
+
+### depends ###
++ pep8
+
+<pre><code>  
+ pip install pep8
+</code></pre>
+
+
 ###clojure
 + cider (0.10.2) 
 + ac-cider (0.2.1)
