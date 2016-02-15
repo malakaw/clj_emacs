@@ -3,7 +3,7 @@
 ;;; Code:
 
 
-;;;### (autoloads nil "el-get/el-get" "el-get/el-get.el" (22204 18473
+;;;### (autoloads nil "el-get/el-get" "el-get/el-get.el" (22209 8456
 ;;;;;;  0 0))
 ;;; Generated autoloads from el-get/el-get.el
 
@@ -104,7 +104,7 @@ already installed packages is considered.
 ;;;***
 
 ;;;### (autoloads nil "el-get/el-get-bundle" "el-get/el-get-bundle.el"
-;;;;;;  (22204 18473 0 0))
+;;;;;;  (22209 8456 0 0))
 ;;; Generated autoloads from el-get/el-get-bundle.el
 
 (autoload 'el-get-bundle-el-get "el-get/el-get-bundle" "\
@@ -154,7 +154,7 @@ required.
 ;;;***
 
 ;;;### (autoloads nil "el-get/el-get-check" "el-get/el-get-check.el"
-;;;;;;  (22204 18473 0 0))
+;;;;;;  (22209 8456 0 0))
 ;;; Generated autoloads from el-get/el-get-check.el
 
 (autoload 'el-get-check-recipe "el-get/el-get-check" "\
@@ -173,7 +173,7 @@ object or a file path.
 ;;;***
 
 ;;;### (autoloads nil "el-get/el-get-list-packages" "el-get/el-get-list-packages.el"
-;;;;;;  (22204 18473 0 0))
+;;;;;;  (22209 8456 0 0))
 ;;; Generated autoloads from el-get/el-get-list-packages.el
 
 (autoload 'el-get-list-packages "el-get/el-get-list-packages" "\
@@ -187,7 +187,7 @@ Display a list of packages.
 ;;;;;;  "el-get/el-get-byte-compile.el" "el-get/el-get-core.el" "el-get/el-get-custom.el"
 ;;;;;;  "el-get/el-get-dependencies.el" "el-get/el-get-install.el"
 ;;;;;;  "el-get/el-get-methods.el" "el-get/el-get-notify.el" "el-get/el-get-recipes.el"
-;;;;;;  "el-get/el-get-status.el") (22204 18475 270722 0))
+;;;;;;  "el-get/el-get-status.el") (22209 8458 311325 0))
 
 ;;;***
 

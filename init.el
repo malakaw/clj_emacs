@@ -1,3 +1,7 @@
+
+
+;;--------------package--------------
+
 (require 'package)
 (package-initialize)
 (add-to-list 'package-archives  '("melpa" . "http://stable.melpa.org/packages/"))
@@ -66,6 +70,8 @@
 
 
 ;;----------paredit------------------------
+(paredit-mode t)
+
 (autoload 'enable-paredit-mode "paredit"
   "Turn on pseudo-structural editing of Lisp code."
   t)

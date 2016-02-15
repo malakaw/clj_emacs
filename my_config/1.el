@@ -4,13 +4,13 @@
 ;;--------------Theme-----------------------
 ;;(add-to-list 'custom-theme-load-path "~/.emacs.d/my_config/custom-themes/noctilux-theme-master")
 ;;(load-theme 'noctilux t)
-
-;;--------------desktop------------------
-(load "desktop")
-(desktop-load-default)
-(desktop-read)
-(add-hook 'kill-emacs-hook
-          '(lambda()(desktop-save "~/")))
+;;--------------session--------------
+(require 'desktop)
+(setq desktop-base-lock-name
+      (convert-standard-filename (format ".emacs.desktop.lock-%d" (emacs-pid))))
+(desktop-save-mode 1)
+  
+(setq bookmark-save-flag 1)
 
 ;;-------------speedbar----------------------------
 
@@ -241,10 +241,9 @@
 
 
 ;;--------org-plot-------------
+
 (local-set-key "\M-\C-g" 'org-plot/gnuplot)
 
 
 
-;;--------------session--------------
-(desktop-save-mode 1)
-(setq bookmark-save-flag 1)
+
