@@ -1,0 +1,46 @@
+;; -*- emacs-lisp -*- <16/02/16 09:47:30 /Users/malaka/.emacs.d/tramp>
+;; Tramp connection history.  Don't change this file.
+;; You can delete it, forcing Tramp to reapply the checks.
+
+((["ssh" nil "ec2_65.9" nil nil]
+  ("locale" "LC_ALL=en_US.utf8")
+  ("uname" "Linux 3.14.48-33.39.amzn1.x86_64")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("stat" "\\stat")
+  ("file-exists" "test -e")
+  ("id" "/usr/bin/id")
+  ("gid-string" "ec2-user")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("gid-integer" 500)
+  ("readlink" "\\readlink")
+  ("ls" "/bin/ls --color=never")
+  ("uid-integer" 500)
+  ("tmpdir" "/ssh:ec2_65.9:/tmp")
+  ("touch-t" t)
+  ("touch" "\\touch")
+  ("git" "\\git"))
+ (["ssh" "root" "218.244.129.88" nil nil]
+  ("locale" "LC_ALL=C")
+  ("uname" "Linux 2.6.32-504.23.4.el6.x86_64")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("stat" "\\stat")
+  ("file-exists" "test -e")
+  ("id" "/usr/bin/id")
+  ("gid-string" "root")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("~" "/root")
+  ("ls" "/bin/ls --color=never")
+  ("ls-dired" t)
+  ("gid-integer" 0))
+ (["scp" nil "ssh" nil nil]
+  nil))

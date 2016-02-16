@@ -1,0 +1,20 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("ec2_65.9_path"
+ (filename . "/ssh:ec2_65.9:/home/ec2-user/")
+ (front-context-string . "script\n  -rw-rw-")
+ (rear-context-string . "96 Dec 24 08:46 ")
+ (position . 1906))
+("ali_mongo"
+ (filename . "/ssh:root@218.244.129.88:/root/")
+ (front-context-string . ".bashrc\n* drwx--")
+ (rear-context-string . "51 Aug 24 10:11 ")
+ (position . 382))
+("init.el"
+ (filename . "~/.emacs.d/init.el")
+ (front-context-string . "\n\n;;------------")
+ (rear-context-string)
+ (position . 1))
+)
