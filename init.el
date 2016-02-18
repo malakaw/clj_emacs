@@ -72,9 +72,9 @@
 ;;----------paredit------------------------
 (paredit-mode t)
 
-(autoload 'enable-paredit-mode "paredit"
-  "Turn on pseudo-structural editing of Lisp code."
-  t)
+;;(autoload 'enable-paredit-mode "paredit"
+;;  "Turn on pseudo-structural editing of Lisp code."
+;;  t)
 (global-set-key (kbd "C-S-<left>") 'paredit-forward-barf-sexp)
 (global-set-key (kbd "C-S-<right>") 'paredit-forward-slurp-sexp)
 	
@@ -96,10 +96,10 @@
 ;;----------python-----------
 (elpy-enable)
 ;;(elpy-use-ipython)
-(setq elpy-rpc-backend "jedi")  
-(add-to-list 'load-path "~/.emacs.d/my_config/python")
-(require 'flymake-easy)
-(require 'flymake-python-pyflakes)
+;;(setq elpy-rpc-backend "jedi")  
+;;(add-to-list 'load-path "~/.emacs.d/my_config/python")
+;;(require 'flymake-easy)
+;;(require 'flymake-python-pyflakes)
 
 
 

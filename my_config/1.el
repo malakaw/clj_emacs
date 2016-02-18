@@ -20,6 +20,13 @@
 (global-set-key [(f1)] 'speedbar-get-focus)
 
 ;;------------window---------------
+(defun fullscreen ()
+      (interactive)
+      (set-frame-parameter nil 'fullscreen
+                           (if (frame-parameter nil 'fullscreen) nil 'fullboth)))
+
+
+
 (require 'window-numbering)
 (window-numbering-mode 1)
 (windmove-default-keybindings)
@@ -37,7 +44,7 @@
 (require 'multiple-cursors)
 (global-set-key (kbd "C->") 'mc/mark-next-like-this)
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
-(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+(global-set-key (kbd "C-.") 'mc/mark-all-like-this)
 
 
 

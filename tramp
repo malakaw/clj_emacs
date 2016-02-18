@@ -1,4 +1,4 @@
-;; -*- emacs-lisp -*- <16/02/16 09:47:30 /Users/malaka/.emacs.d/tramp>
+;; -*- emacs-lisp -*- <16/02/16 13:46:30 /Users/malaka/.emacs.d/tramp>
 ;; Tramp connection history.  Don't change this file.
 ;; You can delete it, forcing Tramp to reapply the checks.
 
@@ -23,7 +23,9 @@
   ("tmpdir" "/ssh:ec2_65.9:/tmp")
   ("touch-t" t)
   ("touch" "\\touch")
-  ("git" "\\git"))
+  ("git" "\\git")
+  ("~" "/home/ec2-user")
+  ("ls-dired" t))
  (["ssh" "root" "218.244.129.88" nil nil]
   ("locale" "LC_ALL=C")
   ("uname" "Linux 2.6.32-504.23.4.el6.x86_64")
@@ -41,6 +43,6 @@
   ("~" "/root")
   ("ls" "/bin/ls --color=never")
   ("ls-dired" t)
-  ("gid-integer" 0))
- (["scp" nil "ssh" nil nil]
-  nil))
+  ("gid-integer" 0)
+  ("readlink" "\\readlink")
+  ("git" "\\git")))
