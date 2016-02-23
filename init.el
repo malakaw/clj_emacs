@@ -70,11 +70,12 @@
 
 
 ;;----------paredit------------------------
-(paredit-mode t)
+(paredit-mode 1)
 
-;;(autoload 'enable-paredit-mode "paredit"
-;;  "Turn on pseudo-structural editing of Lisp code."
-;;  t)
+(autoload 'enable-paredit-mode "paredit"
+  "Turn on pseudo-structural editing of Lisp code."
+  1)
+
 (global-set-key (kbd "C-S-<left>") 'paredit-forward-barf-sexp)
 (global-set-key (kbd "C-S-<right>") 'paredit-forward-slurp-sexp)
 	

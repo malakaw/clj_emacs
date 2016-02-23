@@ -10,5 +10,6 @@
 
 (setq mc/cmds-to-run-once
       '(
+	beginning-of-buffer
 	python-indent-dedent-line-backspace
 	))

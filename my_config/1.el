@@ -1,4 +1,7 @@
 ;;--------------basic-----------------------
+;;(menu-bar-mode 0)
+(tool-bar-mode 0)
+
 
 
 ;;--------------Theme-----------------------
@@ -27,9 +30,9 @@
 
 
 
-(require 'window-numbering)
 (window-numbering-mode 1)
-(windmove-default-keybindings)
+;;(require 'window-numbering)
+;;(windmove-default-keybindings)
 
 
 (global-set-key (kbd "C-s-<down>") 'enlarge-window)
