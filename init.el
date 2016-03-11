@@ -78,7 +78,8 @@
 
 (global-set-key (kbd "C-S-<left>") 'paredit-forward-barf-sexp)
 (global-set-key (kbd "C-S-<right>") 'paredit-forward-slurp-sexp)
-	
+(global-set-key (kbd "M-\"") 'paredit-meta-doublequote)
+
 
 
 
@@ -121,3 +122,4 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+(put 'downcase-region 'disabled nil)

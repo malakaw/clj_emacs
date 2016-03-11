@@ -254,6 +254,9 @@
 
 (local-set-key "\M-\C-g" 'org-plot/gnuplot)
 
+;;--------org--------------
+(load-file "~/.emacs.d/my_download/epresent.el")
+
 
 
 
