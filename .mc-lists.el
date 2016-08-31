@@ -5,11 +5,15 @@
       '(
 	cua--prefix-override-handler
 	cua-paste
+	mouse-set-region
 	smex
 	))
 
 (setq mc/cmds-to-run-once
       '(
 	beginning-of-buffer
+	cider-load-file
+	cua-delete-region
+	mouse-drag-mode-line
 	python-indent-dedent-line-backspace
 	))

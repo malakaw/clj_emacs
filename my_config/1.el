@@ -24,17 +24,22 @@
 
 ;;------------window---------------
 (defun fullscreen ()
-      (interactive)
-      (set-frame-parameter nil 'fullscreen
-                           (if (frame-parameter nil 'fullscreen) nil 'fullboth)))
+  (interactive)
+  (set-frame-parameter nil 'fullscreen
+		       (if (frame-parameter nil 'fullscreen) nil 'fullboth)))
+
 
 
 
 (window-numbering-mode 1)
 ;;(require 'window-numbering)
+
+
+
+
 ;;(windmove-default-keybindings)
 
-
+;;Control-Command==> C-s;作用左、右移
 (global-set-key (kbd "C-s-<down>") 'enlarge-window)
 (global-set-key (kbd "C-s-<up>") 'shrink-window)
 (global-set-key (kbd "C-s-<left>") 'enlarge-window-horizontally)
@@ -256,7 +261,7 @@
 
 ;;--------org--------------
 (load-file "~/.emacs.d/my_download/epresent.el")
-
+;;(load-file "~/.emacs.d/my_download/org-s5.el")
 
 
 

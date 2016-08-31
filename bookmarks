@@ -2,7 +2,27 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("ec2_65.9_path"
+(("slate"
+ (filename . "~/.slate")
+ (front-context-string . "# Config\nconfig ")
+ (rear-context-string)
+ (position . 1))
+("hand_over"
+ (filename . "~/work/moca/docs/hand_over/index.org")
+ (front-context-string)
+ (rear-context-string . "全部数据会有百度云下载连接提供\n")
+ (position . 885))
+("fat_redshift_server"
+ (filename . "~/work/moca/clojure/api/redshift_fat_query_api/project.clj")
+ (front-context-string . "\n  :main ^:skip-")
+ (rear-context-string . "[korma \"0.4.2\"]]")
+ (position . 1404))
+("docs_moca"
+ (filename . "~/work/moca/docs/")
+ (front-context-string . ".DS_Store\n  drwx")
+ (rear-context-string . "48 Oct 23 08:44 ")
+ (position . 236))
+("ec2_65.9_path"
  (filename . "/ssh:ec2_65.9:/home/ec2-user/")
  (front-context-string . "script\n  -rw-rw-")
  (rear-context-string . "96 Dec 24 08:46 ")

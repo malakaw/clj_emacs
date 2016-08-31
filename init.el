@@ -123,3 +123,28 @@
  ;; If there is more than one, they won't work right.
  )
 (put 'downcase-region 'disabled nil)
+
+
+
+;;-------org---
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((ditaa . t)))
+
+
+;;(setq org-todo-keywords
+;;      (quote ((sequence "TODO(t)" "NEXT(n)" "|" "DONE(d)")
+;;              (sequence "WAITING(w@/!)" "HOLD(h@/!)" "|" "CANCELLED(c@/!)" "PHONE" "MEETING"))))
+;;#+SEQ_TODO: FIXME FIXED 
+;;#+TODO: TODO(t) WAIT(w@/!) | DONE(d!) CANCELED(c@)
+;;#+TODO: TODO(t) WAIT(w!) | DONE(d!) CANCELED(c!)
+
+(setq org-todo-keyword-faces
+      (quote (("TODO" :foreground "red" :weight bold)
+              ("NEXT" :foreground "blue" :weight bold)
+              ("DONE" :foreground "forest green" :weight bold)
+              ("WAITING" :foreground "orange" :weight bold)
+              ("HOLD" :foreground "magenta" :weight bold)
+              ("CANCELLED" :foreground "forest green" :weight bold)
+              ("MEETING" :foreground "forest green" :weight bold)
+              ("PHONE" :foreground "forest green" :weight bold))))
