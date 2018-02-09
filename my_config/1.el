@@ -86,8 +86,9 @@
 
 
 
-
-
+;;翻页
+(global-set-key (kbd "C-f") 'scroll-up-command)
+(global-set-key (kbd "C-b") 'scroll-down-command)
 
 ;;---------helm---------------
 (add-to-list 'load-path "~/.emacs.d/helm/helm")
@@ -191,8 +192,8 @@
   (move-line (if (null n) 1 n)))
 
 
-(global-set-key (kbd "C-<up>") 'move-line-up)
-(global-set-key (kbd "C-<down>") 'move-line-down)
+(global-set-key (kbd "s-<down>") 'move-line-down)
+(global-set-key (kbd "s-<up>") 'move-line-up)
 
 (require 'linum)
 (global-linum-mode t)
@@ -238,7 +239,7 @@
 (defun json-format ()
 (interactive)
 (save-excursion
-(shell-command-on-region (mark) (point) "python -m json.tool" (buffer-name) t)
+(shell-command-on-region (mark) (point) "/usr/bin/python -m json.tool" (buffer-name) t)
 )
 )
 
@@ -268,3 +269,36 @@
 ;;-----------remote-tramp-------------
 (require 'tramp) 
 (setq password-cache-expiry nil)
+
+
+
+
+;;--------------KEY COMMAND REPORT --------------
+(load-user-file "~/.emacs.d/my_download/keyfreq/keyfreq.el")
+(require 'keyfreq)
+(keyfreq-mode 1)
+(keyfreq-autosave-mode 1)
+
+
+
+;;-------------node js--------------------
+
+
+
+
+;;-------------------git----------------------
+(add-to-list 'load-path "~/.emacs.d/my_download/git-emacs/")
+(require 'git-emacs)
+
+
+(global-git-gutter-mode +1)
+
+
+;;---------------shell---------------
+(exec-path-from-shell-initialize)
+
+
+;;---------------sql----------------------
+
+;;-------macros------
+(load-file "~/.emacs.d/my_config/macros")

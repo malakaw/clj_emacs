@@ -1,0 +1,2 @@
+(fset 'test_spilte_2
+   "\C-x2")
